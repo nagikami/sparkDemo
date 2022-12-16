@@ -2,6 +2,9 @@ import org.apache.spark.api.java.function.FilterFunction;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.SparkSession;
 
+/**
+ * Driver program
+ */
 public class SimpleApp {
     public static void main(String[] args) {
         String logFile = "spark.log";
